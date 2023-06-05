@@ -4,12 +4,11 @@ import { Component } from 'react/cjs/react.production.min';
 import "./add-form.scss"
 
 class EmployeesAddForm extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            name: "",
-            salary: "",
-        }
+
+    state = {
+        name: "",
+        salary: "",
+
     }
 
     onValueChange = (e) => {
